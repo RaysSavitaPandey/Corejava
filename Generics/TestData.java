@@ -4,7 +4,7 @@ public class TestData {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Data<Integer> i = new Data<Integer>(100);
+Data<Integer> i = new Data<Integer>(1000);
 i.showType();//Show type
 int v = i.getValue();//No tyecast
 System.out.println("Value"+v);
